@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-![Recipe Page Screenshot](./screenshot.png)
+![Recipe Page Screenshot](screenshot.png)
 
 ## Live Demo
 
