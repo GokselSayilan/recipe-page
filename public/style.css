@@ -1,0 +1,78 @@
+/* resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* defining font types */
+#root {
+    --primaryFont: 'Young Serif', serif;
+    --secondaryFont: 'Outfit', sans-serif;
+    --primaryBg: #F3E5D7;
+    --secondaryBg: #fff;
+    --primaryCardBg: #FFF7FB;
+}
+
+/* font settings*/
+
+.headingL,
+.headingM {
+    font-family: var(--primaryFont);
+    font-weight: 400;
+}
+
+.headingL {
+    font-size: 40px;
+    color: #312E2C;
+}
+
+.headingM {
+    font-size: 28px;
+    color: #854632;
+}
+
+.headingS {
+    font-size: 20px;
+    color: #7A284E;
+    font-family: var(--secondaryFont);
+    font-weight: 600;
+}
+
+.bodyTextPrimary,
+.bodyTextSecondary {
+    font-size: 16px;
+    font-family: var(--secondaryFont);
+    color: #5F564D;
+
+}
+
+@media (width < 500px) {
+    .headingL {
+        font-size: 36px;
+        color: #312E2C;
+    }
+}
+
+.bodyTextPrimary {
+    font-weight: 400;
+}
+
+.bodyTextSecondary {
+    font-weight: bold;
+}
+
+
+/* bg settings */
+
+.primaryBg {
+    background-color: var(--primaryBg);
+}
+
+.secondaryBg {
+    background-color: var(--secondaryBg);
+}
+
+.primaryCardBg {
+    background-color: var(--primaryCardBg);
+}

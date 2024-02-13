@@ -1,0 +1,65 @@
+.ingredientsTitle {
+    margin-bottom: 20px;
+}
+
+.ingredientsItems {
+    padding-left: 20px;
+}
+
+.ingredientsItem {
+    margin-bottom: 10px;
+}
+
+.contentSep {
+    border: none;
+    height: 1px;
+    background-color: #E3DDD7;
+    margin: 32px 0;
+}
+
+.instructionsTitle {
+    margin-bottom: 24px;
+}
+
+.instructionsItems {
+    padding-left: 20px;
+}
+
+.instructionsItem {
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+ol li::marker {
+    color: #854632; 
+    font-weight: bold;
+    font-family: var(--secondaryFont);
+}
+
+.nutritionDesc {
+    margin: 24px 0;
+}
+
+.nutritionItems {
+    list-style: none;
+}
+
+.nutritionItemText{
+    display: flex;
+    padding-left: 30px;
+}
+
+.nutritionItemTitle {
+    flex-basis: 50%;
+}
+
+.nutritionItemValue {
+    color: #854632; 
+}
+
+.nutritionSep {
+    border: none;
+    height: 1px;
+    background-color: #E3DDD7;
+    margin: 12px 0;
+}
