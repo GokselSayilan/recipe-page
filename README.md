@@ -6,7 +6,8 @@
 
 ## Live Demo
 
-Check out the live demo here: [recipe-page-focuscode.vercel.app]
+[Check out the live demo here:](https://recipe-page-focuscode.vercel.app)
+
 
 ## Project Summary
 
